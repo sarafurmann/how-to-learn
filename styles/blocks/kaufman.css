@@ -1,0 +1,30 @@
+.kaufman {
+    background-color: #1f1f1f;
+    position: relative;
+    overflow: hidden;
+}
+
+.kaufman__title_theme_dark {
+    position: relative;
+    width: 60%;
+    color: #fff;
+    margin: 90px auto 20px;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 1.15;
+    display: flex;
+    justify-content: center;
+}
+
+.kaufman-subtitle_theme_dark {
+    width: 60%;
+    color: #fff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 20px auto;
+}
+

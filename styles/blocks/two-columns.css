@@ -1,0 +1,39 @@
+.two-columns {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 100px auto;
+}
+
+.two-columns__brief {
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+    color: #2F80ED;
+    width: 175px;
+    margin-top: 5px;
+    margin-right: 40px;
+}
+
+.two-columns__main-text {
+    width: 80%;
+    min-width: 784px;
+    align-items: baseline;
+    margin-top: 0cm;
+}
+
+.two-columns__paragraph {
+    margin-bottom: 30px;
+    font-size: 24px;
+    line-height: 34px;
+    padding: 0;
+    margin-top: 0;
+}
+
+.two-columns__paragraph:last-child {
+    margin-bottom: 0;
+}
+
+.two-columns__span-accent {
+    font-weight: bold;
+}
