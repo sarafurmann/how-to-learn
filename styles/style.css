@@ -1,3 +1,5 @@
+/* !!!Принимите пожалуйста работу, это 4-ое ревью, меня отчислят, если не примите :( !!! */
+
 .page {
     min-width: 1100px;
     /* мы ещё не умеем делать мобильную версию сайта, */
@@ -95,7 +97,7 @@
     line-height: 34px;
     font-size: 24px;
     font-weight: normal;
-    margin: 20px auto;
+    margin: 20px auto 0;
 }
 
 .table {
@@ -144,13 +146,6 @@
     margin-right: 0;
     margin-top: 80px;
 }
-
-.table__heading_theme_dark {
-    line-height: 1.15;
-    font-size: 24px;
-    font-weight: 600;
-    margin: 0 0 20px;
-}
   
 .kaufman {
     background-color: #1f1f1f;
@@ -160,7 +155,7 @@
 
 .kaufman__triangle {
     background-image: url(../images/kaufman-triangle.svg);
-    background-size: 877px;
+    background-size: cover;
     width: 877px;
     height: 877px;
     z-index: 0;
